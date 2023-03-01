@@ -1,0 +1,120 @@
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(119, 119, 119);
+  background-image: url(../images/texture.png); 
+  justify-content: left;
+  position: relative; 
+  bottom: 25px;
+}
+
+.flex-container > div {
+  background-color: rgb(195, 195, 195); /* Requirment-2.4 */
+  width: 100px; /* Requirment-2.9 */
+  height: 25px;/* Requirment-2.7 */
+  margin: 5px;/* Requirment-2.6 */
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  
+}
+
+h1{
+  position: relative; /* Requirment-2.15 */
+  text-align: center;/* Requirment-2.2 */
+  font-size: 40px; /* Requirment-2.1 */
+}
+h3{
+  text-align: center;
+  position: relative; 
+  bottom: 40px;
+}
+
+p { /* Requirment-2.A */
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: system-ui;
+}
+
+h1, p{ /* Requirment-2.B */
+  color: rgb(14, 13, 13); 
+}
+
+
+body{
+  background: rgb(88, 88, 88);
+  background-image: url(../images/texture.png);
+  z-index: -1;
+}
+
+ul{
+  list-style: square; /* Requirment-2.8 */
+}
+
+
+
+img {
+  float: left; /* Requirment-2.11 */
+  
+}
+section.reasons{
+  clear: left; /* Requirment-2.13 */
+}
+table {
+  border: 1px solid black;
+  width: 20%;/* Requirment-2.10 */
+  border-spacing: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(88, 88, 88);
+  background-image: url(../images/texture.png);
+ 
+  
+}
+.megraduating{ /* Requirment-2.C */
+  z-index: -1; /* Requirment-2.17 */
+}
+#grad{ /* Requirment-2.D */
+  color: rgb(14, 13, 13); 
+}
+
+table tr th, /* Requirment-2.F */
+table tr td {
+  color: rgb(14, 13, 13); /* Requirment-2.3 */
+  border-radius: 10px;
+  border: 1px solid black;/* Requirment-2.5 */
+  padding: 10px;
+}
+
+.work {
+  display: inline; /* Requirment-2.12 */
+  visibility: visible; /* Requirment-2.16 */
+}
+.jobs{
+  overflow: visible; /* Requirment-2.14 */
+  height: 40px;
+  width: 500px;
+}
+a.work:link { /* Requirment-2.E */
+  color: rgb(107, 209, 107);
+}
+
+a.work:visited {
+  color: rgb(108, 172, 108);
+}
+
+
+
+
+
+
+
+a:hover {
+  color: rgb(131, 0, 0);
+}
+
+a:active {
+  color: rgb(182, 0, 0);
+}
